@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+.ship2, .ship3, .ship4 {
+    margin-left: 80px;
+}
+
+.shipment {
+    display: flex;
+}
+
+.ship1, .ship2, .ship3, .ship4 {
+    width: 200px;
+    height: 320px;
+    background-color: rgb(206, 206, 206);
+    /* border: 2px solid;
+    border-color: black; */
+    transition: background-color 0.3s ease;
+    box-shadow: 8px 8px 19px 0px rgba(0,0,0,0.75);
+    cursor: pointer;
+}
+
+.ship2:hover, .ship3:hover, .ship4:hover {
+    background-color: orange;
+}
+
+.ship1img {
+    width: 200px;
+}
+
+h2 {
+    margin-left: 35px;
+    margin-top: 5px;
+}
+
+h3 {
+    margin-left: 10px;
+    margin-top: -10px;
+    font-size: 12px;
+}
+
+.img {
+    width: 650px;
+    border: 2px solid;
+    border-radius: 12px;
+}
+
+.ship1_text {
+    margin-left: 850px;
+    margin-top: -600px;
+}
+.ship1desc {
+    font-size: 16px;
+    text-align: end;
+    font-weight: bold;
+    width: 500px;
+    margin-left: 700px;
+    margin-top: 50px;
+}
+
+.ship1button {
+    margin-left: 820px;
+    margin-top: 50px;
+    width: 300px;
+    height: 100px;
+    font-size: 35px;
+    border-radius: 12px;
+    border: none;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.ship1button:hover {
+    background-color: orange;
+    color: black;
+}
+
+.ship1price {
+    margin-left: 920px;
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 80px;
+    cursor: cell;
+}
+
+.ship1price:hover {
+    color: green;
+}
+
